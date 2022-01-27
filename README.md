@@ -1,5 +1,5 @@
 <html>
-<head background="nd1.jpg" style="color:black">
+<head style="color:black">
     <style>
         .boutonmenuprincipal {
         background-color: rgba(24, 24, 24, 0.808);
@@ -53,6 +53,8 @@
         width: 6em;
         }
     </style>
+</head>
+<body background="nd1.jpg"> 
     <h1 class=nom style="color:rgb(255, 255, 255);"  font-weight=bold  align = "center"> ALB-28  </h1>
     <div class="dropdown">
         <button class="boutonmenuprincipal">&nbsp;&nbsp;Menu&nbsp;&nbsp;</button>
@@ -64,5 +66,7 @@
         </div>
     </div>
     <meta charset="utf-8">
-</head>
+</body>
+</html>
+
 
