@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            .bordure2{
+            border: solid 1px rgb(0, 0, 0);
+            background-color: black;
+            padding: 5px;
+            }
+            .bordure1{
+            border: solid 40px rgb(150, 140, 85);
+            background-color: rgb(255, 255, 255);
+            padding:5px
+            }
+        </style>
+        <h1 class="bordure2" style=color:#ffffff align=center>Bienvenue chez ALB-28</h1>
+    </head>
+    <body class="bordure1">
+        <h2 style="color:#000000"align = "center" id="inscr"> Inscription</h2>
+        <h4 align=center style="color:#000000" >
+        <form method="post" action="test1.html">
+            <label for="login">Nom : </label>
+                <input type="text" name="nom" id="nom"><br><br>
+        
+            <label for="login">Prénom : </label>
+                <input type="text" name="prénom" id="prénom"><br><br>
+        
+            <label for="login">Email : </label>
+                <input type="text" name="email" id="email"><br><br>
+        
+            <label for="login">Mot de passe : </label>
+                <input type="text" name="mdp" id="mdp"><br><br>
+        
+            <label for="Radio">Genre : </label>
+                <input type="radio" name="male" id="Male">Male
+                <input type="radio" name="male" id="Female">Female
+                <input type="radio" name="male" id="Female">Others
+             <br><br>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Réinitialiser">
+        </form>
+        </h4>
+    </body>
+</html>
