@@ -67,7 +67,7 @@
     </div>
     <meta charset="utf-8">
 </head>
-<body background="nd1.jfif">
+<body background="nd1.jpg">
 <h1 class="encadrer" style="color:rgb(150, 140, 85)"  font-weight=bold   align = "center">Nos produits</h1>
 <br><br>
 <p align=center>
