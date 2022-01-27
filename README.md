@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<body background="nd1.jfif">
-    <a href="modelesite.html">Nos poduits</a>
+<body background="nd1.jpg">
+    <a href="modelesite.html">Acceder au site</a>
 </body>
 
 </html>
