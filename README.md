@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head background="nd1.jpg" style="color:black">
     <style>
