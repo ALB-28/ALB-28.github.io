@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-        
-<head style="color:black">
+<head background="nd1.jpg" style="color:black">
     <style>
         .boutonmenuprincipal {
         background-color: rgba(24, 24, 24, 0.808);
