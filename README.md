@@ -54,7 +54,6 @@ margin-left: auto;
 margin-right: auto;
 width:6em;
 }
-
 .produit{
   border: solid 5px rgb(150, 140, 85);
   display: inline-block;
@@ -76,8 +75,7 @@ width:6em;
   margin-right: 74px;
   margin-bottom: 10px;
   margin-top: 10px;
-  
-}
+  }
 .rectangle{
 border: solid 5px rgb(150, 140, 85);
 display:inline-block ;
