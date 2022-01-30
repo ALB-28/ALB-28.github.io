@@ -122,34 +122,7 @@ img.fd3 {
     <meta charset="utf-8">
 </head>
 <body background="flo.jpg">
-<h1 class="encadrer" style="color:rgb(150, 140, 85)"  font-weight=bold   align = "center">Nos produits</h1>
 <br><br>
-<div class="produit">
-<img class="fd1" src="p1.jfif" id="p1">
-<img class="fd2" src="p2.jfif" id="p2">
-<img class="fd3" src="p3.jfif" id="p3">
-<h3 style="color: rgb(255,255,255)" class="pnom">Produit 1</h3>
-<h3 style="color: rgb(255,255,255)" class="pnom">Produit 2</h3>
-<h3 style="color: rgb(255,255,255)" class="pnom">Produit 3</h3>
-
-<img class="fd1" src="p1.jfif" id="p1">
-<img class="fd2" src="p2.jfif" id="p2">
-<img class="fd3" src="p3.jfif" id="p3">
-<h3 style="color: rgb(255,255,255)" class="pnom">Produit 1</h3>
-<h3 style="color: rgb(255,255,255)" class="pnom">Produit 2</h3>
-<h3 style="color: rgb(255,255,255)" class="pnom">Produit 3</h3>
-
-<img class="fd1" src="p1.jfif" id="p1">
-<img class="fd2" src="p2.jfif" id="p2">
-<img class="fd3" src="p3.jfif" id="p3">
-<h3 style="color: rgb(255,255,255)" class="pnom">Produit 1</h3>
-<h3 style="color: rgb(255,255,255)" class="pnom">Produit 2</h3>
-<h3 style="color: rgb(255,255,255)" class="pnom">Produit 3</h3>
-</div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br>
-
 </body>
 </html>
 
