@@ -15,7 +15,7 @@ font-size: 30px;
 background-color: rgba(24, 24, 24, 0.808);
 }
 .dropdown {
-position: relative;
+position:fixed;
 display: inline-block;
 }
 .dropdown-child {
@@ -56,12 +56,12 @@ width:6em;
 }
 
 .produit{
-  border: solid 5px rgb(150, 140, 85);
+  border:  5px rgb(150, 140, 85);
   display: inline-block;
   width: 1000px;
   height: 1050px;
   padding: 20px;
-  margin-left: 300px;
+  margin-left: 310px;
   margin-right:300px;
 }
 .pnom{
@@ -112,18 +112,18 @@ img.fd3 {
 }
 </style>
     <h1 class=nom style="color:rgb(255, 255, 255);"  font-weight=bold  align = "center"> ALB-28  </h1>
-    <div class="dropdown">
-        <button class="boutonmenuprincipal">&nbsp;&nbsp;Menu&nbsp;&nbsp;</button>
-        <div class="dropdown-child">
-        <a href="modelesite.html">Nos poduits</a>
-        <a href="test2.html">Se connecter</a>
-        <a href="test1.html">S'inscrire</a>
-        <a href="test1.htmls">Nous contacter</a>
-        </div>
-    </div>
     <meta charset="utf-8">
 </head>
 <body background="flo.jpg">
+  <div class="dropdown">
+    <button class="boutonmenuprincipal">&nbsp;&nbsp;Menu&nbsp;&nbsp;</button>
+    <div class="dropdown-child">
+    <a href="modelesite.html">Nos poduits</a>
+    <a href="test2.html">Se connecter</a>
+    <a href="test1.html">S'inscrire</a>
+    <a href="test1.htmls">Nous contacter</a>
+    </div>
+</div>
 <h1 class="encadrer" style="color:rgb(150, 140, 85)"  font-weight=bold   align = "center">Nos produits</h1>
 <br><br>
 <div class="produit">
@@ -149,8 +149,6 @@ img.fd3 {
 <h3 style="color: rgb(255,255,255)" class="pnom">Produit 3</h3>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br>
 
 </body>
 </html>
