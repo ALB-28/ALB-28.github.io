@@ -11,33 +11,85 @@
             background-color: rgb(255, 255, 255);
             padding:5px
             }
+.boutonmenuprincipal {
+background-color: rgba(24, 24, 24, 0.808);
+color: rgb(255, 255, 255);
+border: solid 5px rgb(150, 140, 85);
+cursor: pointer;
+padding:20px;
+margin-top:0px;
+font-size: 30px;
+}
+.boutonmenuprincipal:hover {
+background-color: rgba(24, 24, 24, 0.808);
+}
+.dropdown {
+position: fixed;
+display: inline-block;
+}
+.dropdown-child {
+display: none;
+background-color: rgba(24, 24, 24, 0.808);
+min-width: 50px;
+}
+.dropdown-child a {
+color: white;
+padding: 20px;
+text-decoration: none;
+display: block;
+}
+.dropdown:hover .dropdown-child {
+display: block;
+}
         </style>
         <h1 class="bordure2" style=color:#ffffff align=center>Bienvenue chez ALB-28</h1>
+        <div class="dropdown">
+            <button class="boutonmenuprincipal">&nbsp;&nbsp;Menu&nbsp;&nbsp;</button>
+            <div class="dropdown-child">
+            <a href="modelesite.html">Nos poduits</a>
+            <a href="test2.html">Se connecter</a>
+            <a href="test1.html">S'inscrire</a>
+            <a href="test1.htmls">Nous contacter</a>
+            </div>
+        </div>
     </head>
     <body background="bn1.jpg" class="bordure1">
-        <br><br><br><br><br>
+        <br><br>
         <h2 style="color:#ffffff"align = "center" id="inscr"> Inscription</h2>
         <h4 align=center style="color:#ffffff" >
         <form method="post" action="test1.html">
-            <label style="color: rgb(150,140,85)" for="login">Nom : </label>
-                <input type="text" name="nom" id="nom"><br><br>
+            <label style="color: rgb(150,140,85)" for="nom">Nom : </label>
+                <input type="text" name="nom" id="nom" placeholder="Nom"><br><br>
         
-            <label style="color: rgb(150,140,85)" for="login">Prénom : </label>
-                <input type="text" name="prénom" id="prénom"><br><br>
+            <label style="color: rgb(150,140,85)" for="prenom">Prénom : </label>
+                <input type="text" name="prénom" id="prénom" placeholder="Prénom"><br><br>
         
-            <label style="color: rgb(150,140,85)" for="login">Email : </label>
-                <input type="text" name="email" id="email"><br><br>
+            <label style="color: rgb(150,140,85)" for="email">Email : </label>
+                <input type="text" name="email" id="email" placeholder="Email"><br><br>
+
+            <label style="color: rgb(150,140,85)" for="nu"> Nom d'utilisateur : </label>
+                <input type="text" name="email" id="email" placeholder="Nom d'utilisateur"><br><br>
         
-            <label style="color: rgb(150,140,85)"  for="login">Mot de passe : </label>
-                <input type="text" name="mdp" id="mdp"><br><br>
+            <label style="color: rgb(150,140,85)"  for="login" >Mot de passe : </label>
+                <input type="text" name="mdp" id="mdp" placeholder="Mot de passe"><br><br>
         
             <label style="color: rgb(150,140,85)" for="Radio">Genre : </label>
                 <input style="color: rgb(150,140,85)"  type="radio" name="male" id="Male">Male
                 <input style="color: rgb(150,140,85)"  type="radio" name="male" id="Female">Female
                 <input style="color: rgb(150,140,85)"  type="radio" name="male" id="Female">Others
+
+            <h4 style="color:rgb(150, 140, 85)"> Quel métier excercer vous ?</h4>
+                <select name="metier" id="metier">
+                    <option value=""> -- Choisissez--</option>
+                    <option value="ingenieur">Ingénieur</option>
+                    <option value="prof">Professeur</option>
+                    <option value="Comercant">Comerçant</option>
+                    <option value="Avocat">Aocat</option>
+                </select>
              <br><br>
             <input style="color: rgb(150,140,85)"  type="submit" value="Envoyer">
             <input  style="color: rgb(150,140,85)" type="reset" value="Réinitialiser">
+
         </form>
         </h4>
     </body>
