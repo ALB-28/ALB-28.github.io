@@ -1,55 +1,17 @@
 <html>
     <head>
-        <style>
-.boutonmenuprincipal {
-background-color: rgba(24, 24, 24, 0.808);
-color: rgb(255, 255, 255);
-border: solid 5px rgb(150, 140, 85);
-cursor: pointer;
-padding:20px;
-margin-top:0px;
-font-size: 30px;
-}
-.boutonmenuprincipal:hover {
-background-color: rgba(24, 24, 24, 0.808);
-}
-.dropdown {
-position: fixed;
-display: inline-block;
-}
-.dropdown-child {
-display: none;
-background-color: rgba(24, 24, 24, 0.808);
-min-width: 50px;
-}
-.dropdown-child a {
-color: white;
-padding: 20px;
-text-decoration: none;
-display: block;
-}
-.dropdown:hover .dropdown-child {
-display: block;
-}
-            .bordure2{
-            border: solid 5px rgb(150, 140, 85);
-            background-color: black;
-            padding: 5px;
-            }
-            .bordure1{
-                border: solid 10px rgb(0, 0, 0);
-                background-color: rgb(255, 255, 255);
-                padding:5px
-            }
-        </style>
+        <link rel="stylesheet" href="page.css">
         <h1 class="bordure2" style=color:#ffffff align=center>ALB-28 est ravi de vous retrouver</h1>
         <div class="dropdown">
             <button class="boutonmenuprincipal">&nbsp;&nbsp;Menu&nbsp;&nbsp;</button>
             <div class="dropdown-child">
-            <a href="modelesite.html">Nos poduits</a>
+            <a href="modelesite.html">Accueil</a>
+            <a href="Type1.html">Type 1</a>
+            <a href="Type2.html">Type 2</a>
+            <a href="Type3.html">Type 3</a>
             <a href="test2.html">Se connecter</a>
             <a href="test1.html">S'inscrire</a>
-            <a href="test1.htmls">Nous contacter</a>
+            <a href="nouscont.html">Nous contacter</a>
             </div>
         </div>
     </head>
@@ -62,10 +24,10 @@ display: block;
                 <input type="text" name="nom" id="nom" placeholder="Nom d'utilisateur"><br><br>
         
                 <label for="login">Mot de passe : </label>
-                <input type="text" name="mdp" id="mdp" placeholder="Mot de passe"><br><br>
+                <input type="password" name="mdp" id="mdp" placeholder="Mot de passe"><br><br>
         
-                <input type="submit" value="Envoyer">
-                <input type="reset" value="Réinitialiser">
+                <input class="conec" style="color: rgb(255, 255, 255);" type="submit" value="Se connecter">
+                <input class="conec" style="color: rgb(255, 255, 255);" type="reset" value="Réinitialiser">
             </form>
         </h4>
     </body>
