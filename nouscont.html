@@ -1,0 +1,56 @@
+<html>      
+<head>
+    <h1 class=nom style="color:rgb(255, 255, 255);"  font-weight=bold  align = "center"> ALB-28  </h1>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="page.css">
+</head>
+<body background="bn1.jpg">
+  <div class="dropdown">
+    <button class="boutonmenuprincipal">&nbsp;&nbsp;Menu&nbsp;&nbsp;</button>
+    <div class="dropdown-child">
+    <a href="modelesite.html">Accueil</a>
+    <a href="Type1.html">Type 1</a>
+    <a href="Type2.html">Type 2</a>
+    <a href="Type3.html">Type 3</a>
+    <a href="test2.html">Se connecter</a>
+    <a href="test1.html">S'inscrire</a>
+    <a href="nouscont.html">Nous contacter</a>
+    </div>
+</div>
+    <br><br>
+    <h2 style="color:#ffffff" align = "center" id="inscr"> Nous contacter</h2>
+    <h4 align=center style="color:#ffffff" >
+    <form method="post" action="test1.html">
+        <label style="color: rgb(150,140,85)" for="nom">Nom : </label>
+            <input type="text" name="nom" id="nom" placeholder="Nom"><br><br>
+    
+        <label style="color: rgb(150,140,85)" for="prenom">Prénom : </label>
+            <input type="text" name="prénom" id="prénom" placeholder="Prénom"><br><br>
+    
+        <label style="color: rgb(150,140,85)" for="email">Email : </label>
+            <input type="text" name="email" id="email" placeholder="Email"><br><br>
+    
+        <label style="color: rgb(150,140,85)" for="Radio">Genre : </label>
+            <input style="color: rgb(150,140,85)"  type="radio" name="male" id="Male">Male
+            <input style="color: rgb(150,140,85)"  type="radio" name="male" id="Female">Female
+            <input style="color: rgb(150,140,85)"  type="radio" name="male" id="Female">Others
+            <br>
+        <h4 style="color:rgb(150, 140, 85)"> Quel fonction exercez-vous ? :</h4>
+            <select name="metier" id="metier">
+                <option value=""> -- Choisissez--</option>
+                <option value="ingenieur">Ingénieur</option>
+                <option value="prof">Professeur</option>
+                <option value="Comercant">Comerçant</option>
+                <option value="Avocat">Aocat</option>
+            </select>
+            <br><br>
+        <label style="color: rgb(150,140,85)" for="com">Commentaire :</label><br><br>
+            <textarea cols="40" rows="5" type="text" name="com" id="com" placeholder="Commentaire"></textarea>
+
+         <br><br>
+        <input style="color: rgb(150,140,85)"  type="submit" value="Envoyer">
+        <input  style="color: rgb(150,140,85)" type="reset" value="Réinitialiser">
+    </form>
+    </h4>
+</body>
+</html>
