@@ -1,6 +1,146 @@
 <html>
 <head>
-    <link rel="stylesheet" href="page.css">
+  <style>
+    .boutonmenu {
+background-color: rgba(24, 24, 24, 0.808);
+color: rgb(255, 255, 255);
+border: solid 5px rgb(150, 140, 85);
+cursor: pointer;
+padding:20px;
+margin-top:0px;
+font-size: 30px;
+}
+.boutonmenu:hover {
+background-color: rgba(24, 24, 24, 0.808);
+}
+.deroule {
+position:fixed;
+display: inline-block;
+}
+.deroule-child {
+display: none;
+background-color: rgba(24, 24, 24, 0.808);
+min-width: 50px;
+}
+.deroule-child a {
+color: white;
+padding: 20px;
+display: block;
+text-decoration: none;
+}
+.deroule:hover .deroule-child {
+display: block;
+}
+
+/* on stylise certaine zone du site*/
+.bordure2{
+border: solid 5px rgb(150, 140, 85);
+background-color: #201d1d;
+font-size: 40px;
+padding: 5px;
+margin-left: 25px;
+}
+.nom{ 
+border: solid 5px rgb(150, 140, 85);
+background-color: rgba(24, 24, 24, 0.808);
+padding:5px;
+position:unset;
+}
+.encadrer{
+border: solid 2px rgb(255, 255, 255);
+padding: 5px;
+background-color: rgba(0, 0, 0, 0.233);
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+width:6em;
+}
+
+.produit{
+  border:  5px rgb(150, 140, 85);
+  display: inline-flix;
+  width: 1400px;
+  height: 1050px;
+  padding: 0px;
+  margin-left: 70px;
+  margin-right:70px;
+}
+.pnom{
+  border: solid 3px rgba(255, 255, 255, 0.521);
+  width: 300px;
+  height:400px;
+  padding: 15px;
+  margin: 5px;
+  display:inline-flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-left: 0px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  
+}
+.rectangle{
+  border:  solid 5px rgb(150, 140, 85);
+  background-color: rgba(24, 24, 24, 0.808);
+  display: inline-flex;
+  width: 1470px;
+  height: 5px;
+  padding: 20px;
+  margin-top:0px;
+  margin-left: 153px;
+}
+.ligne{
+  font-size: x-large;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+/* on crée les box pour les images de produits*/
+img.fd1,
+img.fd2,
+img.fd3 {
+  border: solid 5px wheat;
+  width: 170px;
+  height:250px;
+  padding: 3px;
+  margin: 5px;
+  display:inline-flex;
+  justify-content: center;
+  margin-left: 60px;
+  margin-right: 72px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.produit1{
+  border:  5px rgb(150, 140, 85);
+  display: inline-flix;
+  width: 1100px;
+  height: 1050px;
+  padding: 20px;
+  margin-left: 220px;
+  margin-right:100px;
+}
+
+.text{
+  margin-left:200px;
+  margin-right:200px;
+}
+
+.conec{
+  background-color: rgb(0, 0, 0);
+  border: solid 1px rgb(150, 140, 85);
+}
+.Acc{
+  border:  5px rgb(150, 140, 85);
+  display: inline-flix;
+  width: 1100px;
+  height: 1050px;
+  padding: 20px;
+  margin-left: 315px;
+  margin-right:100px;
+}
+  </style>
+
     <h1 class=nom style="color:rgb(255, 255, 255);"  font-weight=bold  align = "center"> ALB-28  </h1>
     <meta charset="utf-8">
 </head>
