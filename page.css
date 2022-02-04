@@ -1,6 +1,6 @@
 
 /* on crée le bouton menu*/
-.boutonmenuprincipal {
+.boutonmenu {
 background-color: rgba(24, 24, 24, 0.808);
 color: rgb(255, 255, 255);
 border: solid 5px rgb(150, 140, 85);
@@ -9,25 +9,25 @@ padding:20px;
 margin-top:0px;
 font-size: 30px;
 }
-.boutonmenuprincipal:hover {
+.boutonmenu:hover {
 background-color: rgba(24, 24, 24, 0.808);
 }
-.dropdown {
+.deroule {
 position:fixed;
 display: inline-block;
 }
-.dropdown-child {
+.deroule-child {
 display: none;
 background-color: rgba(24, 24, 24, 0.808);
 min-width: 50px;
 }
-.dropdown-child a {
+.deroule-child a {
 color: white;
 padding: 20px;
-text-decoration: none;
 display: block;
+text-decoration: none;
 }
-.dropdown:hover .dropdown-child {
+.deroule:hover .deroule-child {
 display: block;
 }
 
@@ -58,24 +58,25 @@ width:6em;
 .produit{
   border:  5px rgb(150, 140, 85);
   display: inline-flix;
-  width: 1000px;
+  width: 1400px;
   height: 1050px;
-  padding: 20px;
-  margin-left: 316px;
-  margin-right:300px;
+  padding: 0px;
+  margin-left: 70px;
+  margin-right:70px;
 }
 .pnom{
-  border: solid 3px rgb(150,140,85);
-  width: 170px;
-  height:30px;
-  padding: 3px;
+  border: solid 3px rgba(255, 255, 255, 0.521);
+  width: 300px;
+  height:400px;
+  padding: 15px;
   margin: 5px;
   display:inline-flex;
+  flex-flow: column;
   justify-content: center;
-  margin-left: 74px;
-  margin-right: 74px;
+  margin-left: 0px;
+  margin-right: 5px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 0px;
   
 }
 .rectangle{
@@ -104,19 +105,19 @@ img.fd3 {
   margin: 5px;
   display:inline-flex;
   justify-content: center;
-  margin-left: 72px;
+  margin-left: 60px;
   margin-right: 72px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   margin-top: 15px;
 }
 .produit1{
   border:  5px rgb(150, 140, 85);
   display: inline-flix;
-  width: 1000px;
+  width: 1100px;
   height: 1050px;
   padding: 20px;
-  margin-left: 235px;
-  margin-right:300px;
+  margin-left: 220px;
+  margin-right:100px;
 }
 
 .text{
@@ -127,4 +128,13 @@ img.fd3 {
 .conec{
   background-color: rgb(0, 0, 0);
   border: solid 1px rgb(150, 140, 85);
+}
+.Acc{
+  border:  5px rgb(150, 140, 85);
+  display: inline-flix;
+  width: 1100px;
+  height: 1050px;
+  padding: 20px;
+  margin-left: 315px;
+  margin-right:100px;
 }
