@@ -1,0 +1,5 @@
+MS VS CODE
+VS codium
+<br> retour à la ligne
+<pre> mm espace ect..
+<link rel=stylesheet type="test/css" href=(lenomdufichier")>
