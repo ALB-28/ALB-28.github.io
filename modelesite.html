@@ -3,16 +3,16 @@
 <head>
   <style>
     .boutonmenu {
-background-color: rgba(24, 24, 24, 0.808);
-color: rgb(255, 255, 255);
-border: solid 5px rgb(150, 140, 85);
+background-color:rgba(0, 0, 0, 0.603);
+color: rgb(247, 247, 247);
+border: solid 4px rgba(143, 143, 143, 0.603);
 cursor: pointer;
 padding:20px;
 margin-top:0px;
 font-size: 30px;
 }
 .boutonmenu:hover {
-background-color: rgba(24, 24, 24, 0.808);
+background-color: rgba(143, 143, 143, 0.603);
 }
 .deroule {
 position:fixed;
@@ -20,7 +20,7 @@ display: inline-block;
 }
 .deroule-child {
 display: none;
-background-color: rgba(24, 24, 24, 0.808);
+background-color: rgba(143, 143, 143, 0.603);
 min-width: 50px;
 }
 .deroule-child a {
@@ -36,21 +36,21 @@ display: block;
 /* on stylise certaine zone du site*/
 .bordure2{
 border: solid 5px rgb(150, 140, 85);
-background-color: #201d1d;
+background-color: rgba(143, 143, 143, 0.603);
 font-size: 40px;
 padding: 5px;
 margin-left: 25px;
 }
 .nom{ 
-border: solid 5px rgb(150, 140, 85);
-background-color: rgba(24, 24, 24, 0.808);
+border: solid 4px rgba(143, 143, 143, 0.603);
+background-color:rgba(0, 0, 0, 0.603);
 padding:5px;
 position:unset;
 }
 .encadrer{
-border: solid 2px rgb(255, 255, 255);
+border: solid 2px rgb(0, 0, 0);
 padding: 5px;
-background-color: rgba(0, 0, 0, 0.233);
+background-color: rgba(0, 0, 0, 0.603);
 border-radius: 10px;
 margin-left: auto;
 margin-right: auto;
@@ -67,7 +67,7 @@ width:6em;
   margin-right:70px;
 }
 .pnom{
-  border: solid 3px rgba(255, 255, 255, 0.521);
+  border: solid 5px rgb(0, 0, 0);
   width: 300px;
   height:400px;
   padding: 15px;
@@ -79,6 +79,7 @@ width:6em;
   margin-right: 5px;
   margin-bottom: 10px;
   margin-top: 0px;
+  background-color: rgba(148, 148, 148, 0.603);
   
 }
 .rectangle{
@@ -100,7 +101,7 @@ width:6em;
 img.fd1,
 img.fd2,
 img.fd3 {
-  border: solid 5px wheat;
+  border: solid 3px rgb(0, 0, 0)t;
   width: 170px;
   height:250px;
   padding: 3px;
@@ -113,13 +114,13 @@ img.fd3 {
   margin-top: 15px;
 }
 .produit1{
-  border:  5px rgb(150, 140, 85);
-  display: inline-flix;
   width: 1100px;
-  height: 1050px;
+  height: 450px;
   padding: 20px;
   margin-left: 220px;
   margin-right:100px;
+  background: "bn1.jpg";
+  margin-bottom: 20px;
 }
 
 .text{
@@ -128,53 +129,78 @@ img.fd3 {
 }
 
 .conec{
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.699);
   border: solid 1px rgb(150, 140, 85);
 }
 .Acc{
   border:  5px rgb(150, 140, 85);
-  display: inline-flix;
   width: 1100px;
   height: 1050px;
   padding: 20px;
   margin-left: 315px;
   margin-right:100px;
 }
+.ent{
+  width: 1100px;
+  height: 10px;
+  padding: 20px;
+  margin-right:100px;
+}
+.m2{
+  margin-left: 460px;
+  border:solid 2px rgb(99, 99, 99);
+  margin-right: 480px;
+}
+.m2 a{
+  color: aliceblue;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.al{
+  text-align: center;
+}
+
+
   </style>
     <h1 class=nom style="color:rgb(255, 255, 255);"  font-weight=bold  align = "center"> ALB-28  </h1>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="page.css">
 </head>
-<body background="bn1.jpg">
+<!-- bouton menu gauche mobile-->
+<body background="fnd.jfif">
   <div class="deroule">
     <button class="boutonmenu">&nbsp;&nbsp;Menu&nbsp;&nbsp;</button>
     <div class="deroule-child">
     <a href="modelesite.html">Accueil</a>
     <a href="type1.html">Jeux de cartes</a>
     <a href="type2.html">Jeux de plateau</a>
-    <a href="type3.html">Type 3</a>
+    <a href="type3.html">Figurines</a>
     <a href="test2.html">Se connecter</a>
     <a href="test1.html">S'inscrire</a>
     <a href="nouscont.html">Nous contacter</a>
     </div>
 </div>
-<!-- 
-<div class="rectangle">
-  <p class="ligne" style="color: white;">test 1</p>
-  <p class="ligne" style="color: white;">test 1</p>
-</div>
--->
-
-
 
 <h1 class="encadrer" style="color:rgb(255, 255, 255)"  font-weight=bold   align = "center">Accueil</h1>
+<!--menu fixe haut-->
+<div class="m2">
+  <a style="color: black;" href="modelesite.html">Acceuil</a>
+  <a style="color: black;" href="type1.html">Jeu de cartes</a>
+  <a style="color: black;" href="type2.html">Jeu de plateau</a>
+  <a style="color: black;" href="test1.html">Connexion</a>
+  <a style="color: black;" href="test2.html">S'inscrire</a>
+</div>
 <br><br>
 
-<h2 class="text" style="color: rgb(168, 156, 92);"> Bienvenue chez ALB-28,</h2>
-<h2 class="text" style="color: rgb(168, 156, 92);">
+<h2 class="text" style="color: rgb(0, 0, 0);"> Bienvenue chez ALB-28,</h2>
+<h2 class="text" style="color: rgb(0, 0, 0);">
 Depuis notre création en 1992 nous n'avons cessé 
-de proposer à nos utilisateur les meilleurs produits. Retrouvez sans attendre nos jeux de cartes de qualité inbattable 
-ou encore nos magnifiques (Type 2). N'hesitez pas à consulter notre toute nouvelles collection de (Type 3)
+de proposer à nos utilisateurs les meilleurs produits. Retrouvez sans attendre nos jeux de cartes de qualité imbattable 
+ou encore nos magnifiques figurines. N'hesitez pas à consulter notre toute nouvelle collection de jeu de société.
 </h2>
+
+<!-- différents produits-->
 <div class="Acc">
   
   <div class="pnom">
@@ -188,7 +214,7 @@ ou encore nos magnifiques (Type 2). N'hesitez pas à consulter notre toute nouve
 
   <div class="pnom">
     <a align=center href="type2.html">
-    <img hr class="fd2" src="cartes/3.jfif" id="p2">
+    <img hr class="fd2" src="plateau/1.jpg" id="p2">
 
     <h2 style="color: rgb(255,255,255)">Nos jeux de plateau</h2>
     </a>
@@ -196,9 +222,9 @@ ou encore nos magnifiques (Type 2). N'hesitez pas à consulter notre toute nouve
 
   <div class="pnom">
     <a align=center href="type3.html">
-    <img hr class="fd2" src="cartes/1.jpg" id="p2">
+    <img hr class="fd2" src="figurines/5.jpg" id="p2">
 
-    <h2 style="color: rgb(255,255,255)">Nos jeux de plateau</h2>
+    <h2 style="color: rgb(255,255,255)">Nos figurines</h2>
     </a>
   </div>
 
@@ -206,4 +232,5 @@ ou encore nos magnifiques (Type 2). N'hesitez pas à consulter notre toute nouve
 <br><br><br><br>
 
 </body>
+<script src="panier.js"></script>
 </html>
